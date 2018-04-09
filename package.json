@@ -1,0 +1,37 @@
+{
+  "name": "CallCoin",
+  "version": "0.0.1",
+  "description": "CallCoin ICO contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callpage/ico-contracts.git"
+  },
+  "keywords": [
+    "callpage",
+    "ico",
+    "solidity"
+  ],
+  "author": "CallPage",
+  "bugs": {
+    "url": "https://github.com/callpage/ico-contracts/issues"
+  },
+  "homepage": "www.callpage.io",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "npm": "^5.7.1",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^0.18.4",
+    "zeppelin-solidity": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2"
+  }
+}
